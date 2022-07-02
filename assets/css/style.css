@@ -28,6 +28,14 @@ body {
 }
 
 /* Barra de navegação */
+a:link, a:visited {
+  color:#b10333;
+  padding: 2px;
+}
+
+a:hover {
+  color: #e50040;
+}
 
 ul {
   margin: 0;
@@ -64,7 +72,8 @@ ul {
 }
 
 body.home #navegacao a#home,
-body.brasil #Œnavegacao a#brasil,
+body.brasil #navegacao a#brasil,
+body.economia #economia a#economia,
 body.internacional #navegacao a#internacional,
 body.fotos #navegacao a#fotos {
   color: #fff;
@@ -100,7 +109,7 @@ body.fotos #navegacao a#fotos {
 #uma-coluna #primario {
   width: 750px;
   float: left;
-  margin: 0 0 20px 195px;
+  margin: 0 auto;
 }
 
 #secundario {
@@ -207,6 +216,39 @@ h2 {
 }
 
 /*\\ Caixa */
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 62px;
+}
+
+#lista-noticias li a img{
+float: left;
+margin: 5px;
+}
+
+#lista-noticias li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#lista-noticias li a h3 {
+  font-size: 1em;
+  padding: 0;
+  color:#3e7ab9;
+  
+}
+
+#lista-noticias li a p{
+  font-size: 0.9em;
+}
+
+#lista-noticias li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+  
+/* \\Lista de noticias */
 
 /* rodape */
 #container-rodape {
